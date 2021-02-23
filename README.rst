@@ -94,7 +94,7 @@ The ``ClickLoguru`` class defines the following methods:
 
 
 See the `simple test CLI application
-<https://github.com/legumeinfo/click_loguru/blob/master/tests/__init__.py>`_
+<https://github.com/joelb123/click_loguru/blob/master/tests/__init__.py>`_
 for usage examples.
 
 Prerequisites
@@ -117,7 +117,7 @@ Project Status
 +-------------------+-------------+
 | License           | |license|   |
 +-------------------+-------------+
-| Travis Build      | |travis|    |
+| Build             | |build|     |
 +-------------------+-------------+
 | Coverage          | |coverage|  |
 +-------------------+-------------+
@@ -134,24 +134,24 @@ Project Status
     :target: https://pypi.python.org/pypi/click_loguru
     :alt: Python package
 
-.. |repo| image:: https://img.shields.io/github/last-commit/legumeinfo/click_loguru
-    :target: https://github.com/legumeinfo/click_loguru
+.. |repo| image:: https://img.shields.io/github/last-commit/joelb123/click_loguru
+    :target: https://github.com/joelb123/click_loguru
     :alt: GitHub repository
 
 .. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-    :target: https://github.com/legumeinfo/click_loguru/blob/master/LICENSE.txt
+    :target: https://github.com/joelb123/click_loguru/blob/master/LICENSE.txt
     :alt: License terms
 
-.. |travis| image:: https://img.shields.io/travis/legumeinfo/click_loguru.svg
-    :target:  https://travis-ci.org/legumeinfo/click_loguru
-    :alt: Travis CI
+.. |build| image:: https://github.com/joelb123/click_loguru/workflows/tests/badge.svg
+    :target:  https://github.com/joelb123/click_loguru.actions
+    :alt: GitHub Actions
 
-.. |codacy| image:: https://api.codacy.com/project/badge/Grade/6ee5771afe014cffbb32a2f79cf17fff
-    :target: https://www.codacy.com/gh/legumeinfo/click_loguru?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=legumeinfo/click_loguru&amp;utm_campaign=Badge_Grade
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/83706d2404e3436d94494eb3bbfe467d
+    :target: https://www.codacy.com/gh/joelb123/click_loguru?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joelb123/click_loguru&amp;utm_campaign=Badge_Grade
     :alt: Codacy.io grade
 
-.. |coverage| image:: https://codecov.io/gh/legumeinfo/click_loguru/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/legumeinfo/click_loguru
+.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/joelb123/click_loguru
     :alt: Codecov.io test coverage
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
@@ -162,13 +162,13 @@ Project Status
     :target: https://github.com/pre-commit/pre-commit
     :alt: pre-commit
 
-.. |issues| image:: https://img.shields.io/github/issues/legumeinfo/click_loguru.svg
-    :target:  https://github.com/legumeinfo/click_loguru/issues
+.. |issues| image:: https://img.shields.io/github/issues/joelb123/click_loguru.svg
+    :target:  https://github.com/joelb123/click_loguru/issues
     :alt: Issues reported
 
 
-.. |depend| image:: https://api.dependabot.com/badges/status?host=github&repo=legumeinfo/click_loguru
-     :target: https://app.dependabot.com/accounts/legumeinfo/repos/236847525
+.. |depend| image:: https://api.dependabot.com/badges/status?host=github&repo=joelb123/click_loguru
+     :target: https://app.dependabot.com/accounts/joelb123/repos/236847525
      :alt: dependabot dependencies
 
 

@@ -2,11 +2,11 @@
 name = "click_loguru"
 version = "1.3.5"
 description = "Logging to stderr and file for click applications."
-authors = ["Joel Berendzen <joelb@ncgr.org>"]
+authors = ["Joel Berendzen <joel@generisbio.com>"]
 license = "BSD-3-Clause"
 readme = "README.rst"
-homepage = "https://github.com/legumeinfo/click_loguru"
-documentation = "https://github.com/legumeinfo/click_loguru"
+homepage = "https://github.com/joelb123/click_loguru"
+documentation = "https://github.com/joelb123/click_loguru"
 keywords = [
     "logging",
     "click",
