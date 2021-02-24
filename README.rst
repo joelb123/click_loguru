@@ -143,7 +143,7 @@ Project Status
     :alt: License terms
 
 .. |build| image:: https://github.com/joelb123/click_loguru/workflows/tests/badge.svg
-    :target:  https://github.com/joelb123/click_loguru.actions
+    :target:  https://github.com/joelb123/click_loguru/actions
     :alt: GitHub Actions
 
 .. |codacy| image:: https://api.codacy.com/project/badge/Grade/83706d2404e3436d94494eb3bbfe467d
