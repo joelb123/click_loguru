@@ -355,6 +355,18 @@ virtualenv = ">=14.0.0"
 tox_to_nox = ["jinja2", "tox"]
 
 [[package]]
+name = "nox-poetry"
+version = "0.8.1"
+description = "nox-poetry"
+category = "dev"
+optional = false
+python-versions = ">=3.6.1,<4.0.0"
+
+[package.dependencies]
+nox = ">=2020.5.24,<2021.0.0"
+tomlkit = ">=0.7.0,<0.8.0"
+
+[[package]]
 name = "packaging"
 version = "20.9"
 description = "Core utilities for Python packages"
@@ -629,7 +641,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6.1"
-content-hash = "84ea97333dc98c6de2b7507858df72cce0323ae974a514347dab1f294e99a98a"
+content-hash = "b69e11611e5a5dd91fb1325ecefb6fde1403db7c3a806b97ad87d36806849b24"
 
 [metadata.files]
 aiocontextvars = [
@@ -869,6 +881,10 @@ nodeenv = [
 nox = [
     {file = "nox-2020.12.31-py3-none-any.whl", hash = "sha256:f179d6990f7a0a9cebad01b9ecea34556518b8d3340dfcafdc1d85f2c1a37ea0"},
     {file = "nox-2020.12.31.tar.gz", hash = "sha256:58a662070767ed4786beb46ce3a789fca6f1e689ed3ac15c73c4d0094e4f9dc4"},
+]
+nox-poetry = [
+    {file = "nox-poetry-0.8.1.tar.gz", hash = "sha256:e613716b67166de1dbe787ba8f0a6fe64a6c48b8fa553ad9fc399a9e51478bcc"},
+    {file = "nox_poetry-0.8.1-py3-none-any.whl", hash = "sha256:5a391ff3ab5fa4023f4cdf38a214dd72465d8731f2635657e50f0f6e24f8a404"},
 ]
 packaging = [
     {file = "packaging-20.9-py2.py3-none-any.whl", hash = "sha256:67714da7f7bc052e064859c05c595155bd1ee9f69f76557e21f051443c20947a"},
