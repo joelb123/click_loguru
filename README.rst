@@ -59,7 +59,7 @@ click_loguru
  
 .. raw:: html
 
-   <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
+   <p align="center"><img alt="logo" src="docs/_static/logo.jpg" width="50%" /></p>
 
 
 ``click_loguru`` initializes `click <https://click.palletsprojects.com/>`_ CLI-based
