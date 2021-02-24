@@ -13,7 +13,7 @@ CODE_LOCATIONS = (
 @nox.session
 def tests(session):
     """Run tests with pytest and pytest-cov."""
-    args = session.posargs or []
+    args = session.posargs or ["--cov=./", "--cov-report=xml"]
     session.install("coverage[toml]", "pytest", "pytest-cov", ".")
     session.run("pytest", *args)
 

@@ -10,7 +10,6 @@ jobs:
           - { python-version: 3.9, os: windows-latest }
           - { python-version: 3.9, os: macos-latest }
           - { python-version: 3.8, os: ubuntu-latest }
-          - { python-version: 3.7, os: ubuntu-latest }
     name: Python ${{ matrix.python-version }} (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     steps:
@@ -28,9 +27,9 @@ jobs:
     - name: Install dependencies using Poetry
       run: poetry install --ansi
     - name: Upload coverage to Codecov
+      if: ${{ matrix.os == 'ubuntu-latest' && matrix.python-version == '3.9' }}
       uses: codecov/codecov-action@v1
       with:
-        verbose: true
         fail_ci_if_error: false
         flags: unittests
         env_vars: OS, PYTHON

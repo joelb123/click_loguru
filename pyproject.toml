@@ -82,7 +82,6 @@ known_standard_library = "pkg_resources"
 style = "semver"
 
 [tool.coverage.run]
-parallel = true
 omit = ["tests/*", "noxfile.py", ".nox/*"]
 
 [tool.coverage.report]
