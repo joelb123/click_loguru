@@ -1,5 +1,67 @@
+============
 click_loguru
 ============
+.. badges-begin
+
+| |pypi| |repo| |downloads| |dlrate|
+| |license| |build| |coverage|
+| |codacy| |issues| |black| |precommit|
+
+.. |pypi| image:: https://img.shields.io/pypi/v/click_loguru.svg
+    :target: https://pypi.python.org/pypi/click_loguru
+    :alt: Python package
+
+.. |repo| image:: https://img.shields.io/github/last-commit/joelb123/click_loguru
+    :target: https://github.com/joelb123/click_loguru
+    :alt: GitHub repository
+
+.. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+    :target: https://github.com/joelb123/click_loguru/blob/master/LICENSE.txt
+    :alt: License terms
+
+.. |build| image:: https://github.com/joelb123/click_loguru/workflows/tests/badge.svg
+    :target:  https://github.com/joelb123/click_loguru/actions
+    :alt: GitHub Actions
+
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/83706d2404e3436d94494eb3bbfe467d
+    :target: https://www.codacy.com/gh/joelb123/click_loguru?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joelb123/click_loguru&amp;utm_campaign=Badge_Grade
+    :alt: Codacy.io grade
+
+.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/joelb123/click_loguru
+    :alt: Codecov.io test coverage
+
+.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
+    :target: https://github.com/psf/black
+    :alt: Black is the uncompromising Python code formatter
+
+.. |precommit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    :target: https://github.com/pre-commit/pre-commit
+    :alt: pre-commit
+
+.. |issues| image:: https://img.shields.io/github/issues/joelb123/click_loguru.svg
+    :target:  https://github.com/joelb123/click_loguru/issues
+    :alt: Issues reported
+
+.. |depend| image:: https://api.dependabot.com/badges/status?host=github&repo=joelb123/click_loguru
+     :target: https://app.dependabot.com/accounts/joelb123/repos/236847525
+     :alt: dependabot dependencies
+
+.. |dlrate| image:: https://img.shields.io/pypi/dm/click_loguru
+    :target: https://pypistats.org/packages/click_loguru
+    :alt: Download stats
+
+.. |downloads| image:: https://pepy.tech/badge/click_loguru
+    :target: https://pepy.tech/project/click_loguru
+    :alt: Download stats
+
+.. badges-end
+ 
+.. raw:: html
+
+   <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
+
+
 ``click_loguru`` initializes `click <https://click.palletsprojects.com/>`_ CLI-based
 programs for logging to stderr and (optionally) a log file via the
 `loguru <https://github.com/Delgan/loguru/>`_ logger.  It can optionally log run time,
@@ -100,82 +162,6 @@ for usage examples.
 Prerequisites
 -------------
 Python 3.6 or greater is required.
-This package is tested under Linux using Python 3.8. Besides  ``click`` and ``loguru``
-themselves, this package depends upon ``memory_profiler`` and ``attrs``.
-
-
-Project Status
---------------
-+-------------------+-------------+
-| Latest Release    | |pypi|      |
-+-------------------+-------------+
-| Activity          | |repo|      |
-+-------------------+-------------+
-| Downloads         | |downloads| |
-+-------------------+-------------+
-| Download Rate     | |dlrate|    |
-+-------------------+-------------+
-| License           | |license|   |
-+-------------------+-------------+
-| Build             | |build|     |
-+-------------------+-------------+
-| Coverage          | |coverage|  |
-+-------------------+-------------+
-| Code Grade        | |codacy|    |
-+-------------------+-------------+
-| Issues            | |issues|    |
-+-------------------+-------------+
-| Code Style        | |black|     |
-+-------------------+-------------+
-| Pre-commit        | |precommit| |
-+-------------------+-------------+
-
-.. |pypi| image:: https://img.shields.io/pypi/v/click_loguru.svg
-    :target: https://pypi.python.org/pypi/click_loguru
-    :alt: Python package
-
-.. |repo| image:: https://img.shields.io/github/last-commit/joelb123/click_loguru
-    :target: https://github.com/joelb123/click_loguru
-    :alt: GitHub repository
-
-.. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-    :target: https://github.com/joelb123/click_loguru/blob/master/LICENSE.txt
-    :alt: License terms
-
-.. |build| image:: https://github.com/joelb123/click_loguru/workflows/tests/badge.svg
-    :target:  https://github.com/joelb123/click_loguru/actions
-    :alt: GitHub Actions
-
-.. |codacy| image:: https://api.codacy.com/project/badge/Grade/83706d2404e3436d94494eb3bbfe467d
-    :target: https://www.codacy.com/gh/joelb123/click_loguru?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joelb123/click_loguru&amp;utm_campaign=Badge_Grade
-    :alt: Codacy.io grade
-
-.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/joelb123/click_loguru
-    :alt: Codecov.io test coverage
-
-.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
-    :target: https://github.com/psf/black
-    :alt: Black is the uncompromising Python code formatter
-
-.. |precommit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
-    :target: https://github.com/pre-commit/pre-commit
-    :alt: pre-commit
-
-.. |issues| image:: https://img.shields.io/github/issues/joelb123/click_loguru.svg
-    :target:  https://github.com/joelb123/click_loguru/issues
-    :alt: Issues reported
-
-
-.. |depend| image:: https://api.dependabot.com/badges/status?host=github&repo=joelb123/click_loguru
-     :target: https://app.dependabot.com/accounts/joelb123/repos/236847525
-     :alt: dependabot dependencies
-
-
-.. |dlrate| image:: https://img.shields.io/pypi/dm/click_loguru
-    :target: https://pypistats.org/packages/click_loguru
-    :alt: Download stats
-
-.. |downloads| image:: https://pepy.tech/badge/click_loguru
-    :target: https://pepy.tech/project/click_loguru
-    :alt: Download stats
+This package is tested under Linux using Python 3.8. Besides  
+``click`` and ``loguru`` themselves, this package depends upon
+``memory_profiler`` and ``attrs``.

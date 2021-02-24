@@ -10,7 +10,7 @@ CODE_LOCATIONS = (
     "tests",
 )
 
-@nox.session
+@session
 def tests(session):
     """Run tests with pytest and pytest-cov."""
     args = session.posargs or ["--cov=./", "--cov-report=xml"]
@@ -18,7 +18,7 @@ def tests(session):
     session.run("pytest", *args)
 
 
-@nox.session
+@session
 def lint_pylint(session):
     """Run lint on all code."""
     args = session.posargs or CODE_LOCATIONS
