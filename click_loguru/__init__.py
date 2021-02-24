@@ -25,10 +25,12 @@ SKIP_FIELDS = -7
 
 
 class ClickLoguru:
+
     """Creates decorators for use with click to control loguru logging ."""
 
     @attr.s(auto_attribs=True)
     class LogState:
+
         """Click context object for verbosity, quiet, and logfile info."""
 
         verbose: bool = False
@@ -249,7 +251,8 @@ class ClickLoguru:
             def wrapper(*args, **kwargs):
                 returnobj = user_func(*args, **kwargs)
                 logger.log(
-                    level.upper(), self._format_time("Total"),
+                    level.upper(),
+                    self._format_time("Total"),
                 )
                 return returnobj
 
@@ -328,7 +331,8 @@ class ClickLoguru:
         if old_phase is None:
             return
         logger.log(
-            self.timer_log_level, self._format_time(old_phase),
+            self.timer_log_level,
+            self._format_time(old_phase),
         )
 
     def _format_time(self, phase_name):

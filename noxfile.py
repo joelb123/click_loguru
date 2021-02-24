@@ -41,7 +41,7 @@ def tests(session):
 
 @nox.session(python=["3.8"])
 def lint_pylint(session):
-    "Run lint on all code"
+    """Run lint on all code"""
     args = session.posargs or CODE_LOCATIONS
     session.run("poetry", "install", "--no-dev", external=True)
     install_with_constraints(session, "pylint", "nox")

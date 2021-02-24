@@ -45,8 +45,8 @@ click_loguru = ClickLoguru(
 def cli(verbose, quiet, logfile, profile_mem, extra):
     """simple -- a simple cli function with logging by loguru."""
     unused_str = (
-        f"verbose: {verbose} quiet: {quiet}" +
-        f" logfile: {logfile} profile_mem: {profile_mem} extra{extra}"
+        f"verbose: {verbose} quiet: {quiet}"
+        + f" logfile: {logfile} profile_mem: {profile_mem} extra{extra}"
     )
 
 
