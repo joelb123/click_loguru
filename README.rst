@@ -3,13 +3,15 @@ click_loguru
 ============
 .. badges-begin
 
-| |pypi| |repo| |downloads| |dlrate|
-| |license| |build| |coverage|
-| |codacy| |issues| |black| |precommit|
+| |pypi| |Python Version| |repo| |downloads| |dlrate|
+| |license| |build| |coverage| |codacy| |issues|
 
 .. |pypi| image:: https://img.shields.io/pypi/v/click_loguru.svg
     :target: https://pypi.python.org/pypi/click_loguru
     :alt: Python package
+
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/click_loguru
+   :target: https://github.com/joelb/click_loguru
 
 .. |repo| image:: https://img.shields.io/github/last-commit/joelb123/click_loguru
     :target: https://github.com/joelb123/click_loguru
@@ -31,14 +33,6 @@ click_loguru
     :target: https://codecov.io/gh/joelb123/click_loguru
     :alt: Codecov.io test coverage
 
-.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square
-    :target: https://github.com/psf/black
-    :alt: Black is the uncompromising Python code formatter
-
-.. |precommit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
-    :target: https://github.com/pre-commit/pre-commit
-    :alt: pre-commit
-
 .. |issues| image:: https://img.shields.io/github/issues/joelb123/click_loguru.svg
     :target:  https://github.com/joelb123/click_loguru/issues
     :alt: Issues reported
@@ -57,9 +51,10 @@ click_loguru
 
 .. badges-end
  
-.. raw:: html
+.. image:: https://raw.githubusercontent.com/joelb123/click_loguru/master/docs/_static/logo.jpg
+   :target:  https://raw.githubusercontent.com/joelb123/click_loguru/master/LICENSE.artwork.txt
+   :alt: Click/Loguru merged artwork licenses
 
-   <p align="center"><img alt="logo" src="docs/_static/logo.jpg" width="50%" /></p>
 
 
 ``click_loguru`` initializes `click <https://click.palletsprojects.com/>`_ CLI-based
