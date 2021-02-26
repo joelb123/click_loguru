@@ -51,8 +51,8 @@ click_loguru
 
 .. badges-end
  
-.. image:: https://raw.githubusercontent.com/joelb123/click_loguru/master/docs/_static/logo.jpg
-   :target:  https://raw.githubusercontent.com/joelb123/click_loguru/master/LICENSE.artwork.txt
+.. image:: https://raw.githubusercontent.com/joelb123/click_loguru/master/docs/_static/logo.png
+   :target: https://raw.githubusercontent.com/joelb123/click_loguru/master/LICENSE.artwork.txt
    :alt: Click/Loguru merged artwork licenses
 
 
