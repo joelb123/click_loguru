@@ -18,7 +18,7 @@ click_loguru
     :alt: GitHub repository
 
 .. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
-    :target: https://github.com/joelb123/click_loguru/blob/master/LICENSE.txt
+    :target: https://github.com/joelb123/click_loguru/blob/main/LICENSE.txt
     :alt: License terms
 
 .. |build| image:: https://github.com/joelb123/click_loguru/workflows/tests/badge.svg
@@ -29,7 +29,7 @@ click_loguru
     :target: https://www.codacy.com/gh/joelb123/click_loguru?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joelb123/click_loguru&amp;utm_campaign=Badge_Grade
     :alt: Codacy.io grade
 
-.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/master/graph/badge.svg
+.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/main/graph/badge.svg
     :target: https://codecov.io/gh/joelb123/click_loguru
     :alt: Codecov.io test coverage
 
@@ -51,8 +51,8 @@ click_loguru
 
 .. badges-end
  
-.. image:: https://raw.githubusercontent.com/joelb123/click_loguru/master/docs/_static/logo.png
-   :target: https://raw.githubusercontent.com/joelb123/click_loguru/master/LICENSE.artwork.txt
+.. image:: https://raw.githubusercontent.com/joelb123/click_loguru/main/docs/_static/logo.png
+   :target: https://raw.githubusercontent.com/joelb123/click_loguru/main/LICENSE.artwork.txt
    :alt: Click/Loguru merged artwork licenses
 
 
@@ -151,7 +151,7 @@ The ``ClickLoguru`` class defines the following methods:
 
 
 See the `simple test CLI application
-<https://github.com/joelb123/click_loguru/blob/master/tests/__init__.py>`_
+<https://github.com/joelb123/click_loguru/blob/main/tests/__init__.py>`_
 for usage examples.
 
 Prerequisites
