@@ -65,6 +65,7 @@ src/
 # coverage data #
 #################
 .coverage
+coverage.xml
 
 # nox environments#
 ###################
