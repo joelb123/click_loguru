@@ -7,6 +7,8 @@ from pathlib import Path
 from click.testing import CliRunner
 from . import cli
 
+MEMORY_QUANTUM_MB = 25
+
 
 def print_docstring():
     """Decorator to print a docstring."""
@@ -162,4 +164,4 @@ def test_memory_profiling(tmp_path):
         cli, ["--profile_mem", "log-memory-use", str(mem_inc_mb)]
     )
     inc_mem_size = get_mem_use_from_logstring(result.output)
-    assert (inc_mem_size - base_mem_size - mem_inc_mb) <= 1
+    assert (inc_mem_size - base_mem_size - mem_inc_mb) <= MEMORY_QUANTUM_MB
