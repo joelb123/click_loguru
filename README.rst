@@ -158,6 +158,3 @@ Prerequisites
 -------------
 Python 3.6 or greater is required.
 This package is tested under Linux, MacOS, and Windows using Python 3.9.
-Besides  
-``click`` and ``loguru`` themselves, this package depends upon
-``memory_profiler`` and ``attrs``.

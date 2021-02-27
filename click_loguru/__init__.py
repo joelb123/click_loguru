@@ -16,7 +16,7 @@ from loguru import logger
 from memory_profiler import memory_usage
 
 # global constants
-__version__ = "1.3.5"
+__version__ = "1.3.6"
 __all__ = ["ClickLoguru"]
 DEFAULT_STDERR_LOG_LEVEL = "INFO"
 DEFAULT_FILE_LOG_LEVEL = "DEBUG"
