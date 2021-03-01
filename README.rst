@@ -11,11 +11,19 @@ click_loguru
     :alt: Python package
 
 .. |Python Version| image:: https://img.shields.io/pypi/pyversions/click_loguru
-   :target: https://github.com/joelb/click_loguru
+   :alt: Supported Python versions
 
 .. |repo| image:: https://img.shields.io/github/last-commit/joelb123/click_loguru
     :target: https://github.com/joelb123/click_loguru
     :alt: GitHub repository
+
+.. |downloads| image:: https://pepy.tech/badge/click_loguru
+    :target: https://pepy.tech/project/click_loguru
+    :alt: Download stats
+
+.. |dlrate| image:: https://img.shields.io/pypi/dm/click_loguru
+    :target: https://pypistats.org/packages/click_loguru
+    :alt: Download stats
 
 .. |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
     :target: https://github.com/joelb123/click_loguru/blob/main/LICENSE.txt
@@ -33,34 +41,25 @@ click_loguru
     :target: https://codecov.io/gh/joelb123/click_loguru
     :alt: Codecov.io test coverage
 
+.. |coverage| image:: https://codecov.io/gh/joelb123/click_loguru/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/joelb123/click_loguru
+    :alt: Codecov.io test coverage
+
 .. |issues| image:: https://img.shields.io/github/issues/joelb123/click_loguru.svg
     :target:  https://github.com/joelb123/click_loguru/issues
     :alt: Issues reported
-
-.. |depend| image:: https://api.dependabot.com/badges/status?host=github&repo=joelb123/click_loguru
-     :target: https://app.dependabot.com/accounts/joelb123/repos/236847525
-     :alt: dependabot dependencies
-
-.. |dlrate| image:: https://img.shields.io/pypi/dm/click_loguru
-    :target: https://pypistats.org/packages/click_loguru
-    :alt: Download stats
-
-.. |downloads| image:: https://pepy.tech/badge/click_loguru
-    :target: https://pepy.tech/project/click_loguru
-    :alt: Download stats
 
 .. badges-end
  
 .. image:: https://raw.githubusercontent.com/joelb123/click_loguru/main/docs/_static/logo.png
    :target: https://raw.githubusercontent.com/joelb123/click_loguru/main/LICENSE.artwork.txt
-   :alt: Click/Loguru merged artwork licenses
-
-
+   :alt: Combined Click/Loguru artwork under MIT and BSD licenses
 
 ``click_loguru`` initializes `click <https://click.palletsprojects.com/>`_ CLI-based
-programs for logging to stderr and (optionally) a log file via the
-`loguru <https://github.com/Delgan/loguru/>`_ logger.  It can optionally log run time,
-CPU use, and peak memory use of user functions.
+programs for logging via the `loguru <https://github.com/Delgan/loguru/>`_ logger.  
+It can optionally log to a log file with a logfile-retention policy and with command-line
+arguments captured.  It can also optionally log run time, CPU use, and peak memory use of
+user CLI functions.
 
 Log file names will include the name of your program and (if your application uses
 subcommands via ``@click.group()``), the name of the subcommand. Log files are 
